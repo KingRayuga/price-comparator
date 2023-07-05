@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
 
 const Applayout = () => {
     return (
         <div className="app">
-            <h1>
-                Initial phase!!
-            </h1>
+            <Header />
         </div>
     );
 };
